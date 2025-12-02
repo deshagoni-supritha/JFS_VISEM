@@ -13,3 +13,30 @@ you can change the existing files in local respository
 2. git add .
 3. git commit -m "message"
 4. git push origin master
+
+------------------------------------------------------------
+rmdir
+dir /a:h --> to show hidden file 
+
+if you want to retrive remote respository to local 
+---> git clone url
+1. clean the screen : cls
+2. creating directory: mkdir foldername
+3. how to hide a folder: attrib +h <name>
+4. unhide: attrib -h <name>
+5. how to remove one empty directory: rmdir <name>
+6. how to remove folder with content: rmdir /s/q <name>
+7. Display the content of a directory: dir
+8. how to display hidden folder: dir /a:h
+9. how to rename a folder: rename<name> <newname>
+10. how to display content of file: type <filename>
+11. to create a new text file: notepad filename.txt
+12. To forward the content of one file to other file: type mayuri.txt>Anurag.txt
+13. To delete a file: del <name>
+14. To delete all txt files: del*.txt
+15. The list of wild characters:
+     ?-single character
+     *- 0 or more characters
+16. To display all single character named file with extension.txt: dir ?.txt
+17. To display all files with any extension: dir *.*
+18. To merge all file content in one file  
